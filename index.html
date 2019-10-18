@@ -1,123 +1,114 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="C:/Helio/Projects/Projects/ONE/webpage.css">
+	<style>
+		@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+	</style>
 
-<link rel="icon" href="https://img.icons8.com/cute-clipart/64/000000/menu.png">
-<style>
-@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
-body
-{
-  font-family: 'Quicksand', sans-serif;
-}
-h1 
-{
-    color: grey;
-    text-align:center;
-}
-h2 
-{
-    text-align: center;
-}
-p 
-{
-    text-align:left;
-}
-header 
-{
-  padding: 1%;
-  border: 2px solid black;
-  border-radius: 5px;
-  
 
-}
-#divOne 
-{
-   border: 2px solid black;
-}
-#one
-{
-   border: 1px solid black;
-   border-radius: 25px;
-}
-#two 
-{
-  text-align:center;
-}
-#three
-{
-  border: 1px solid black;
-  border-radius: 25px;
-}
-.center
- {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-.column {
-  float: left;
-  width: 33%;
- 
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-</style>
 </head>
-<header>
-<a id="two" href="experience.html">Experience Page</a>
-<br>
+<title>Bronson Brown</title>
+
+<!--hover id not working-->
+<header id="hoverText">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light" id="test">
+		<a class="navbar-brand" href="C:\Helio\Projects\Projects\ONE\index.html">Home</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<!--#614033 -->
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">In progress<span class="sr-only"></span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="C:\Helio\Projects\Projects\ONE\experience.html">Experience</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Projects
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="experience.html">Experience</a>
+						<a class="dropdown-item" href="#">Another action</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">Something else here</a>
+					</div>
+				</li>
+			</ul>
+			</form>
+		</div>
+	</nav>
+
+
 </header>
-<h2>About Me</h2> 
 
-<img id="one" src="https://avatars2.githubusercontent.com/u/20495949?s=400&amp;v=4" alt="Bronson" class="center">
-<p>
-<hr> </hr>
-Hello!
-This is a quick page about me. I'm a male in my late twenties, living in the Salt Lake Valley. I enjoy traveling and certain things that go along with that. Those include: hiking, camping, and sight seeing.
-I also enjoy music. My favorite type of music is classic rock n roll. I've been to a lot of concerts, but a few recent ones are: Kings of Leon, Explosions in the Sky, and Robert Plant.</p>
-<div class="row">
-<div id="three" class="column">
-<video width="320" height="240" controls class="center">
-<source src="C:\Helio\Projects\Projects\ONE\media\plant.mp4" type="video/mp4" >
-</video>
-</div>
-<div id="three" class="column">
-<video width="320" height="240" controls class="center">
-<source src="C:\Helio\Projects\Projects\ONE\media\explosionsinthesky.mp4" type="video/mp4">
-</video>
-</div>
-<div id="three" class="column">
-<video width="320" height="240" controls class="center">
-<source src="C:\Helio\Projects\Projects\ONE\media\yellowstone.mp4" type="video/mp4" >
-</video>
-</div>
-<div class="row">
-<div id="three" class="column"><p>Robert Plant - Gallivan Center</p></div>
-<div id="three" class="column"><p>Explosions in the Sky - The Depot</p></div>
-<div id="three" class="column"><p>Yellow Stone - Old Faithful</p></div>
-</div>
-</div>
-<hr> </hr>
-<p>
-   My favorite sport is  basketball. I'm a Utah Jazz fan! I used to play, but not so much anymore. However, I still enjoy 
-   being active and ocasionally go to the gym. I also enjoy playing video games and watching movies.
-   I have more than enough videos games, but my favorites are RPGS like the Final Fantasy games.
-</p>
+<body>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/bootstrap.min.js"></script>
+	<div class="forStyle">
+		<h2></h2>
+		<article class="container-fluid">
+			<section id="section_margin">
+					<p class="centerText">Hi! I'm Bronson Brown and I'm a Web Developer,Student,and Programmer. </p>
+					<p class="centerText">Future MERN Stack Dev</p>
+			</section>
 
-<hr> </hr>
-<p>I've attended school at Salt Lake Community College for a few years. Most of that was spent majoring in computer science and information systems. There I learned a lot of Computer Science theory, java programming, and web developement.
-</p>
+			<img src="C:/Helio/Projects/Projects/ONE/media/meagain.JPG" onmouseover="mouseOver()" class="center"
+				id="me_one" alt="picofme">
+			<br>
+			<br>
+			<p class="centerText">
+				This is a quick page about me. I'm a male in my late twenties, living in the Salt Lake Valley. I enjoy
+				traveling and certain things that go along with that. Those include: hiking, camping, and sight seeing.
+				I also enjoy music. My favorite type of music is classic rock n roll. I've been to a lot of concerts,
+				but a few recent ones are: Kings of Leon, Explosions in the Sky, and Robert Plant.</p>
+			<hr class="style-eight">
+			<section onmouseover="addSocialMedia()" onmouseout="removeAllSocialMedia()">
+				<h1>Contact Me:</h1>
+				<img class="centerIcons socialMedia" id="center_Icons_0"
+					src="https://img.icons8.com/ios/80/000000/instagram-new.png">
+				<img class="centerIcons socialMedia" id="center_Icons_1"
+					src="https://img.icons8.com/windows/80/000000/hackerrank.png">
+				<img class="centerIcons socialMedia" id="center_Icons_2"
+					src="https://img.icons8.com/metro/80/000000/linkedin.png">
+				<img class="centerIcons socialMedia" id="center_Icons_3"
+					src="https://img.icons8.com/metro/80/000000/github.png">
+				<img class="centerIcons socialMedia" id="center_Icons_4"
+					src="https://img.icons8.com/metro/80/000000/new-post.png">
+			</section>
+			<br>
+			<hr class="style-eight">
+			<br>
+			<section onmouseover="addAllSkills()" onmouseout="removeAllSkills()">
+				<h1>Skills:</h1>
+				<img class="centerIcons" id="center_skills_0" src="https://img.icons8.com/ios/80/000000/javascript.png">
+				<img class="centerIcons" id="center_skills_1" src="https://img.icons8.com/dotty/80/000000/html.png">
+				<img class="centerIcons" id="center_skills_2" src="https://img.icons8.com/dotty/80/000000/css.png">
+				<img class="centerIcons" id="center_skills_3" src="https://img.icons8.com/ios-filled/80/000000/java-coffee-cup-logo.png">
+				<img class="centerIcons" id="center_skills_4" src="https://img.icons8.com/ios/80/000000/mysql.png">
+			</section>
+			<hr class="style-eight">
+		</article>
+		<br>
 
-<footer>
+		<br class="extraTopMargin">
 
-<a id="two" href="contact.html">Contact Me</a>
-</footer>
+
+
+		<footer class="centerText">
+
+		</footer>
+	</div>
+	<script src="C:/Helio/Projects/Projects/ONE/website.js"></script>
 </body>
 
 </html>

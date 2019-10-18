@@ -1,0 +1,210 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    background-image: url("C:/Helio/Projects/Projects/ONE/media/clouds.jpg");
+    color: #ff8352;
+    margin-bottom: 2%;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-align: center;
+   
+}
+p:hover 
+{
+    background-color: #ff8352;
+    margin-bottom: 2%;
+}
+nav-link:hover 
+{
+    background-color: #ff8352 !important;
+    margin-bottom: 2%;
+}
+h1 {
+    color: grey;
+    text-align: center;
+    color: #ed652f;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h2 {
+    color: #ed652f;
+    text-shadow: 1px 1px black;
+    text-align: center;
+}
+
+
+p {
+    text-align: left;
+}
+
+
+#divOne {
+    border: 2px solid black;
+}
+
+#one {
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+#two {
+    text-align: center;
+}
+
+#three {
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+#div three {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#div four {
+    font-size: 8px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+
+.centerIcons 
+{
+ padding:5%;
+}
+
+#section_margin
+{
+ margin: 5%;
+}
+.column {
+    float: left;
+    width: 33%;
+}
+
+.centerText {
+    text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#test {
+    background-color: #cc6618 !important;
+    border: 1px solid black;
+    color: #ff8352 !important;
+    padding-left: 38% !important;
+}
+
+#me_one {
+    margin-top: 5%;
+    height: 275px;
+    width: 275px;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px grey;
+}
+
+#spida {
+    margin-top: 5%;
+    height: 475px;
+    width: 475px;
+    border: 1px solid black;
+    border-radius: 50px;
+    box-shadow: 10px 10px 2px black;
+}
+
+.extraTopMargin {
+    margin-top: 5%;
+}
+
+.forStyle {
+    margin-bottom: 5%;
+}
+#link { 
+color: black;
+}
+
+hr.style-eight 
+{
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: black;
+    text-align: center;
+}
+hr.style-eight:after {
+    content: "{code on}";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: #ed652f;
+    border: 1px solid black;
+    border-radius: 2%;
+}
+.move {
+ padding-left:100%;
+
+}
+.videoMargin {
+    margin-bottom: 5%;
+}
+.videoBorder {
+    border-top: 1px solid #ed652f;
+    border-bottom: 1px solid #ed652f;
+}
+hr 
+{ 
+ margin-top: 4%;
+ margin-bottom: 3%;
+}
+.accordion_button
+{
+ display: block;
+ width: 100%;
+ padding: 15px;
+ border: none;
+ outline: none;
+ cursor: pointer;
+ background: transparent;
+ color: black;
+ text-align: left;
+ transition: background 0.2s;
+
+}
+.accordion_button::after 
+{
+    content: '\25be';
+    float: right;
+    transform: scale(1.5);
+}
+.accordion_button--active 
+{
+    background: #555555 
+}
+.accordion_button--active + .accordion_content
+{
+    display: block;
+}
+.accordion_button--active::after
+{
+    content: '\25b4';
+}
+.accordion_content {
+    padding: 0 15px;
+    background: yellow;
+
+    display: none;
+    overflow: auto;
+}
